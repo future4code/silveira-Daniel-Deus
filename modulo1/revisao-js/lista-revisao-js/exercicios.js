@@ -22,22 +22,22 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-//  const arrPar = array.filter((i) => {
-//    return i % 2 == 0;
-//  });
-//
-//  return arrPar;
+  const arrPar = array.filter((i) => {
+    return i % 2 == 0;
+  });
+
+  return arrPar;
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-//  const arrParElevado = array.filter((i) => {
-//    return i % 2 == 0;
-//  });
-//  const resultado = arrParElevado.map((i) => {
-//    return i * i;
-//  });
-//  return resultado;
+  const arrParElevado = array.filter((i) => {
+    return i % 2 == 0;
+  });
+  const resultado = arrParElevado.map((i) => {
+    return i * i;
+  });
+  return resultado;
 }
 
 // EXERCÍCIO 06
