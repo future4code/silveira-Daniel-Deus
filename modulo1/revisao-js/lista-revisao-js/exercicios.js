@@ -54,23 +54,23 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-//  let numeroMaior = num2;
-//  let numeroMenor = num1;
-//  if (num1 - num2 > 0) {
-//    numeroMaior = num1;
-//    numeroMenor = num2;
-//  }
-//  let maiorDivisivelPorMenor = false;
-//  if (numeroMaior % numeroMenor === 0) {
-//    maiorDivisivelPorMenor = true;
-//  }
-//  let diferenca = numeroMaior - numeroMenor;
-//  const objeto = {
-//  numeroMaior: numeroMaior,
-//    maiorDivisivelPorMenor: maiorDivisivelPorMenor,
-//    diferenca: diferenca,
-//  };
-//  return objeto;
+  let numeroMaior = num2;
+  let numeroMenor = num1;
+  if (num1 - num2 > 0) {
+    numeroMaior = num1;
+    numeroMenor = num2;
+  }
+  let maiorDivisivelPorMenor = false;
+  if (numeroMaior % numeroMenor === 0) {
+    maiorDivisivelPorMenor = true;
+  }
+  let diferenca = numeroMaior - numeroMenor;
+  const objeto = {
+  numeroMaior: numeroMaior,
+    maiorDivisivelPorMenor: maiorDivisivelPorMenor,
+    diferenca: diferenca,
+  };
+  return objeto;
 }
 
 // EXERCÍCIO 08
