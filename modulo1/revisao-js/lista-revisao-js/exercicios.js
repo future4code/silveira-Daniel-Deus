@@ -42,14 +42,14 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-// let numeroMaior = 0;
+ let numeroMaior = 0;
 
-//  for (i = 0; i < array.length; i++) {
-//    if (array[i] > numeroMaior) {
-//      numeroMaior = array[i];
-//    }
-//  }
-//  return numeroMaior;
+  for (i = 0; i < array.length; i++) {
+    if (array[i] > numeroMaior) {
+      numeroMaior = array[i];
+    }
+  }
+  return numeroMaior;
 }
 
 // EXERCÍCIO 07
