@@ -104,30 +104,30 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-  const filmePrincipal = {
-    nome: "O Diabo Veste Prada",
-    ano: "2006",
-    diretor: "David Frankel",
-    atores: ["Meryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
-  }
-  const chamadaProFilme = `Venha assistir ao filme ${filmePrincipal.nome}, de ${filmePrincipal.ano}, dirigido por ${filmePrincipal.diretor} e estrelado por ${filmePrincipal.atores[0]}, ${filmePrincipal.atores[1]}, ${filmePrincipal.atores[2]}, ${filmePrincipal.atores[3]}.`
-  return chamadaProFilme;
+  return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}.`;
 }
 
 // EXERCÍCIO 12
-function retornaPessoaAnonimizada(pessoa) { }
+function retornaPessoaAnonimizada(pessoa) {
+  const newPessoa = pessoa;
+  const retornandoPessoa = {
+    ...newPessoa,
+    nome: "ANÔNIMO",
+  };
+  return retornandoPessoa;
+}
 
 // EXERCÍCIO 13A
-function retornaPessoasAutorizadas(pessoas) { }
+function retornaPessoasAutorizadas(pessoas) {}
 
 // EXERCÍCIO 13B
-function retornaPessoasNaoAutorizadas(pessoas) { }
+function retornaPessoasNaoAutorizadas(pessoas) {}
 
 // EXERCÍCIO 14
-function retornaContasComSaldoAtualizado(contas) { }
+function retornaContasComSaldoAtualizado(contas) {}
 
 // EXERCÍCIO 15A
-function retornaArrayOrdenadoAlfabeticamente(consultas) { }
+function retornaArrayOrdenadoAlfabeticamente(consultas) {}
 
 // EXERCÍCIO 15B
-function retornaArrayOrdenadoPorData(consultas) { }
+function retornaArrayOrdenadoPorData(consultas) {}
