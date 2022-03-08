@@ -14,11 +14,10 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
- return array.sort((n1, n2) => {
- return n1 - n2;
+  return array.sort((n1, n2) => {
+    return n1 - n2;
   });
 }
-
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
@@ -42,7 +41,7 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
- let numeroMaior = 0;
+  let numeroMaior = 0;
 
   for (i = 0; i < array.length; i++) {
     if (array[i] > numeroMaior) {
@@ -54,19 +53,19 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-  let numeroMaior = num2;
+  let maiorNumero = num2;
   let numeroMenor = num1;
   if (num1 - num2 > 0) {
-    numeroMaior = num1;
+    maiorNumero = num1;
     numeroMenor = num2;
   }
   let maiorDivisivelPorMenor = false;
-  if (numeroMaior % numeroMenor === 0) {
+  if (maiorNumero % numeroMenor === 0) {
     maiorDivisivelPorMenor = true;
   }
-  let diferenca = numeroMaior - numeroMenor;
+  let diferenca = maiorNumero - numeroMenor;
   const objeto = {
-  numeroMaior: numeroMaior,
+    maiorNumero: maiorNumero,
     maiorDivisivelPorMenor: maiorDivisivelPorMenor,
     diferenca: diferenca,
   };
@@ -75,50 +74,46 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-
+  let numerosPares = [];
+  for (let i = 0; i < n; i += 1) {
+    numerosPares.push(i * 2);
+  }
+  return numerosPares;
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+  if (ladoA === ladoB && ladoC === ladoA) {
+    return "Equilátero";
+  }
+  if (ladoA === ladoB || ladoB === ladoC || ladoC === ladoA) {
+    return "Isósceles";
+  }
+  if (ladoA !== ladoB && ladoC !== ladoB && ladoC !== ladoA) {
+    return "Escaleno";
+  }
 }
 
 // EXERCÍCIO 10
-function retornaSegundoMaiorESegundoMenor(array) {
-
-}
+function retornaSegundoMaiorESegundoMenor(array) {}
 
 // EXERCÍCIO 11
-function retornaChamadaDeFilme(filme) {
-
-}
+function retornaChamadaDeFilme(filme) {}
 
 // EXERCÍCIO 12
-function retornaPessoaAnonimizada(pessoa) {
-
-}
+function retornaPessoaAnonimizada(pessoa) {}
 
 // EXERCÍCIO 13A
-function retornaPessoasAutorizadas(pessoas) {
-
-}
+function retornaPessoasAutorizadas(pessoas) {}
 
 // EXERCÍCIO 13B
-function retornaPessoasNaoAutorizadas(pessoas) {
-
-}
+function retornaPessoasNaoAutorizadas(pessoas) {}
 
 // EXERCÍCIO 14
-function retornaContasComSaldoAtualizado(contas) {
-
-}
+function retornaContasComSaldoAtualizado(contas) {}
 
 // EXERCÍCIO 15A
-function retornaArrayOrdenadoAlfabeticamente(consultas) {
-
-}
+function retornaArrayOrdenadoAlfabeticamente(consultas) {}
 
 // EXERCÍCIO 15B
-function retornaArrayOrdenadoPorData(consultas) {
-    
-}
+function retornaArrayOrdenadoPorData(consultas) {}
