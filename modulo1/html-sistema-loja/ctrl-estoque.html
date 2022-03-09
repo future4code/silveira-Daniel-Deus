@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Controle de Estoque</title>
-</head>
-<body>
-    <div>
-        <p>Nome da lojinha</p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>KHX, Import's</p>
     </div>
-    
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
+
+    <div class="centralizar">
+        <ul class="menu">
+          <a href="index.html">Página Inicial |</a>
+          <a href="ctrl-estoque.html">Controle de Estoque |</a>
+          <a href="add-produto.html">Adicionar Produto |</a>
+          <a href="funcionarios.html">Funcionários</a>
+        </ul>
+      </div>
 
     <h2>Controle de Estoque</h2>
 
-    <table>
-        <tr>
+    <div class="estoques">
+        <table class="produtos">
+          <tr>
             <th>Foto</th>
             <th>Descrição</th>
             <th>Preço (R$)</th>
             <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img src="img/polo.webp" alt="Homem vestindo camisa polo"/></td>
-            <td> Camisa Polo </td>
-            <td> R$ 30,00 </td>
-            <td> 30 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/camisa-manga-longa.jpg" alt="Homem vestindo camisa manga longa"/></td>
-            <td> Camisa Manga longa </td>
-            <td> R$ 20,00 </td>
-            <td> 30 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/calça-jeans.jpg" alt="Mulher vestindo calça jeans"/></td>
-            <td> Calça Jeans </td>
-            <td> R$ 80,00 </td>
-            <td> 10 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/bermuda-jeans.jpg" alt="Mulher vestindo bermuda jeans"/></td>
-            <td> Bermuda Jeans </td>
-            <td> R$ 60,00 </td>
-            <td> 10 </td>
-        </tr>
-        
-        <!-- Crie mais uma linha desta tabela abaixo \/ -->
-
-        <tr>
-            <td><img src="img/tenis-noke.jpg" alt="Tenis da noke"/></td>
-            <td> Tênis Noke </td>
-            <td> R$ 160,00 </td>
-            <td> 5 </td>
-        </tr>
-
-    </table>
-
-</body>
+          </tr>
+    
+          <tr>
+            <td><img src="img/polo.webp" alt="Homem vestindo camisa polo" /></td>
+            <td>Camisa Polo</td>
+            <td>R$ 30,00</td>
+            <td>30</td>
+          </tr>
+    
+          <tr>
+            <td>
+              <img
+                src="img/camisa-manga-longa.jpg"
+                alt="Homem vestindo camisa manga longa"
+              />
+            </td>
+            <td>Camisa Manga longa</td>
+            <td>R$ 20,00</td>
+            <td>30</td>
+          </tr>
+    
+          <tr>
+            <td>
+              <img src="img/calça-jeans.jpg" alt="Mulher vestindo calça jeans" />
+            </td>
+            <td>Calça Jeans</td>
+            <td>R$ 80,00</td>
+            <td>10</td>
+          </tr>
+    
+          <tr>
+            <td>
+              <img
+                src="img/bermuda-jeans.jpg"
+                alt="Mulher vestindo bermuda jeans"
+              />
+            </td>
+            <td>Bermuda Jeans</td>
+            <td>R$ 60,00</td>
+            <td>10</td>
+          </tr>
+    
+          <!-- Crie mais uma linha desta tabela abaixo \/ -->
+    
+          <tr>
+            <td><img src="img/tenis-noke.jpg" alt="Tenis da noke" /></td>
+            <td>Tênis Noke</td>
+            <td>R$ 160,00</td>
+            <td>5</td>
+          </tr>
+        </table>
+    </div>
+  </body>
 </html>
