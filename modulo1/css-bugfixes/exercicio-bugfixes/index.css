@@ -138,3 +138,7 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+.format-table{
+    text-align: center;
+}
