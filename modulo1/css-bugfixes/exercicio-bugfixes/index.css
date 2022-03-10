@@ -133,10 +133,12 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    cursor: pointer;
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #dfc44d;
+    transition: 0.4s;
 }
 
 .format-table{
@@ -145,4 +147,15 @@ td button {
 
 .format-table img{
     width: 50px;
+}
+
+.format-table button{
+    cursor: pointer;
+    border: none;
+}
+
+.format-table button:hover{
+    background-color: #dfc44d;
+    transition: 0.4s;
+
 }
