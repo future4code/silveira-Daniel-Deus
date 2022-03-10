@@ -77,6 +77,12 @@ div img {
     list-style: none;
 }
 
+#container-de-descricao p{
+    display: flex;
+    width: 190px;
+    margin: 0 auto;
+}
+
 #container-para-comprar {
     background-color: #e7eb90;
     display: flex;
