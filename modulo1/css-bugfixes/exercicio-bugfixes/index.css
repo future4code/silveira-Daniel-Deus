@@ -159,3 +159,9 @@ td button {
     transition: 0.4s;
 
 }
+
+.container-do-search input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 0)
+}
