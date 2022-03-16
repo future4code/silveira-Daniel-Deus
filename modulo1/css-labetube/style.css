@@ -36,9 +36,9 @@ nav h1{
 .container-movies{
     display: flex;
     margin: 8px 12px 6px 6px;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-movies img{
@@ -73,3 +73,21 @@ footer{
     color: white;
     font-weight: bold;
 }
+
+@media screen and (max-width: 450px ) {
+    
+    .container-movies .thumbs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+
+    .thumbs video{
+        margin-top: 50%;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+}
+
