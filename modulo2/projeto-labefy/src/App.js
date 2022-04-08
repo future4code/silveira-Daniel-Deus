@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Projeto iniciado, para continuar amanhã.</h1>
+      <h1>Não consegui realizar o projeto, estou revisando React para faze-lo na semana que vem.</h1>
     </div>
   );
 }
