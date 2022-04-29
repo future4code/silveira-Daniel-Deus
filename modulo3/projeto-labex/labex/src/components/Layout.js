@@ -38,10 +38,16 @@ const ButtonPage = styled.div`
 
 `;
 
+const TituloLabex = styled.h1`
+  color: blue;
+  font-weight: bold;
+`
 
 function Layout() {
   return (
-      <LayoutPage>
+
+    <LayoutPage>
+        <TituloLabex>Labex</TituloLabex>
       <ButtonPage>Ver Viagens</ButtonPage>
       <ButtonPage>Área de Admin</ButtonPage>
     </LayoutPage>
