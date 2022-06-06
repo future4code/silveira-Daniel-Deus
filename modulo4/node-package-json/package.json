@@ -1,0 +1,16 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "Estudando o Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./Ex1.js"
+  },
+  "author": "Daniel Oliveira",
+  "license": "ISC",
+  "exercicio_1": {
+    "nome": "Daniel",
+    "idade": 22,
+    "comentario": "Para acessar os e ler o JSON basta digitar noje (nome do objeto JSON) ex: node package.json"
+  }
+}
